@@ -12,8 +12,8 @@ class Sorter:
                         swapped = True
                 else:
                     if arr[i] > arr[i + 1]:
-                    arr[i], arr[i + 1] = arr[i + 1], arr[i]
-                    swapped = True
+                        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+                        swapped = True
         return arr
 
     @staticmethod
